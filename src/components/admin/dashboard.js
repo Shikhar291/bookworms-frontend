@@ -32,7 +32,7 @@ const Dashboard = () => {
 
   // const []
   const fetchDataNovel = () => {
-    fetch("http://localhost:5000" + "/novel/getall")
+    fetch(url + "/novel/getall")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

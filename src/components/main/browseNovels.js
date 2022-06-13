@@ -31,7 +31,7 @@ const BrowseNovel = () => {
   const [keyword2, setKeyword2] = useState("");
 
   const fetchData = () => {
-    fetch("http://localhost:5000" + "/novel/getall")
+    fetch(url +"/novel/getall")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -73,7 +73,7 @@ const BrowseNovel = () => {
   };
 
   const filterNovels = () => {
-    fetch("http://localhost:5000" + "/novel/getall")
+    fetch(url + "/novel/getall")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
