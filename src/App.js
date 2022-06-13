@@ -25,6 +25,8 @@ import ManageQuery from "./components/user/manageQuery";
 import ResetPassword from "./components/main/resetpassword";
 import ManageUser from "./components/admin/manageUser";
 import Chat2 from "./components/user/chat2";
+import AdminManageQuery from "./components/admin/manageQuery";
+import Dashboard from "./components/admin/dashboard";
 
 function App() {
   const stripe = loadStripe(
